@@ -1,0 +1,21 @@
+
+config openvpn 'premium'
+	option auth_user_pass '/etc/openvpn/userpass.txt'
+	option client '1'
+	option dev 'tun'
+	option proto 'udp'
+	option resolve_retry 'infinite'
+	option nobind '1'
+	option persist_key '1'
+	option persist_tun '1'
+	option mute_replay_warnings '1'
+	option ca '/etc/openvpn/ca.crt'
+	option verb '3'
+	option reneg_sec '0'
+	option tls_client '1'
+	option cipher 'AES-256-CBC'
+	list remote 'vpn-at.premiumize.me'
+	option enabled '1'
+
+config /etc/openvpn/userpass.txt 'auth_user_pass'
+

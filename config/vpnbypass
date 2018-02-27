@@ -1,0 +1,18 @@
+
+config vpnbypass 'config'
+	option enabled '1'
+	list localsubnet '192.168.1.102'
+	list localsubnet '192.168.1.147'
+	list localsubnet '192.168.1.157'
+	list remotesubnet '23.246.0.0/18'
+	list remotesubnet '37.77.184.0/21'
+	list remotesubnet '45.57.0.0/17'
+	list remotesubnet '64.120.128.0/17'
+	list remotesubnet '69.53.224.0/19'
+	list remotesubnet '72.44.16.0/22'
+	list remotesubnet '108.175.32.0/20'
+	list remotesubnet '185.2.220.0/22'
+	list remotesubnet '192.173.64.0/18'
+	list remotesubnet '198.38.96.0/19'
+	list remotesubnet '198.45.48.0/20'
+
