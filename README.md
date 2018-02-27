@@ -4,6 +4,9 @@ Some configs and scripts I used in my Asus RT-N56U Router with OpenWRT (Currentl
 <h2><strong>Configs</strong></h2>
 Located in /etc/config. Explanations to some configs:
 
+<h3>Adblock</h3>
+For use with https://github.com/openwrt/packages/tree/master/net/adblock/files package. Enabling to many blocklists will result in too many blocked domains.
+
 <h3>VpnBypass</h3>
 <p>See&nbsp;<a href="https://github.com/openwrt/packages/tree/master/net/vpnbypass/files">https://github.com/openwrt/packages/tree/master/net/vpnbypass/files</a>&nbsp;for the package.<br />
 CIDR-IPs are for Netflix (unfortunately adding the Domains only is not enough). Domains to be bypassed are added to /etc/config/dhcp.</p>
