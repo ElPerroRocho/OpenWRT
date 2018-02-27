@@ -6,7 +6,7 @@ Located in /etc/config. Explanations to some configs:
 
 <h3>VpnBypass</h3>
 <p>See&nbsp;<a href="https://github.com/openwrt/packages/tree/master/net/vpnbypass/files">https://github.com/openwrt/packages/tree/master/net/vpnbypass/files</a>&nbsp;for the package.<br />
-CIDR-IPs are all you need for Netflix (unfortunately adding the Domains only is not enough). Domains to be bypassed are added to /etc/config/dhcp.</p>
+CIDR-IPs are for Netflix (unfortunately adding the Domains only is not enough). Domains to be bypassed are added to /etc/config/dhcp.</p>
 
 <h3>DHCP</h3>
 <p> Contains various settings for my home network (like static local IPs for some Devices). <br/>
